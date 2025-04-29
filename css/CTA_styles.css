@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+.CTA_section{
+    padding: 80px 40px;
+}
+
+.CTA_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+
+/* background-image: url("../images/JobApply.svg");
+    background-repeat: no-repeat;
+    background-size: contain;*/
+
+
+.job_image{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    height: 20vw;
+}
+.img_1{
+    width: 3vw;
+    justify-self: start;    
+    height: 3vw;
+}
+.in_apply_img{
+    border: 1px solid blue;
+    width: 13vw;
+    height: 10vw;
+}
+.img_2{ 
+    height: auto;
+    width: 100%;
+}
+
+
+    .job_tag {
+        position: relative;
+        top: -190px; /* Adjust to your liking */
+        right: -65%; /* Adjust to your liking */
+        z-index: 10;               background-color: transparent;
+
+      }
+    .job_tag .img_wrapper {
+        width: 100%;
+        height: auto;
+        display: block;
+        background-color: transparent;
+      }
+      
+      .job_tag img {
+        width: 100%;
+    height: auto;
+    display: block;        background-color: transparent;
+    max-width: 13vw;
+  
+      }
+      
+      .job_tag p {
+        position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -185%) rotate(13.11deg);
+  background: none;
+  color: #000;
+  font-family: Oswald;
+  font-size: clamp(10px, 1.3vw, 16px);
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+    
+
+.job_application{
+    border: 1.8px solid #fff;
+    background: transparent;
+    
+    padding: 24px;
+    border-radius: 16px;
+    width: 425px;
+}
+.job_application h4{
+    color: #fff;
+}
+
+
+.in_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.book_private{
+    background: linear-gradient(to top, #77FF00, #FFF600);
+    height: 273px;
+    width: 430px;
+    border-radius: 16px;
+}
+.suggest_movie{
+    background: #fff;
+    border-radius: 16px;
+    
+    height: 88px;
+    width: 430px;
+    
+}
+
+.check_menu{
+
+    background: linear-gradient(to top, #FF8800, #FF0000);
+    width: 425px;
+    height: 378px;
+    border-radius: 16px;
+
+}
+
+
+
+
+
+.jobs_positions_apply_container{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+
+
+
+.job_positions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.job_positions button {
+    font-family: Oswald;
+    font-weight: 600;
+    padding: 12px 45px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.job_spans{
+    font-size: 1.1vw;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;        
+
+    color: #fff;        
+}
+.job_spans span{
+    background-color: #333;
+    border-radius: 12px;
+    padding: 8px;
+}

@@ -1,0 +1,69 @@
+.section_movies_now{
+  padding: 0 40px;
+  
+  height: 600px;
+  background-color: #000;
+}
+ 
+  /* Fold Container */
+  .fold-container {
+    width: 100%;
+
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Movie Box */
+  .movie-box {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Poster */
+  .poster-container {
+    width: 100%;
+   
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    min-height: 300px;
+  }
+  
+  .poster-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+  }
+  
+  /* Title */
+  .movie-title {
+    font-size: 1.5vw;
+    margin: 1.5rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Button */
+  .book-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #bf0812;
+  }

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    font-weight: Bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.navbar {
+    display: none; /* Hidden by default */
+    
+
+}
+/* Mobile Navigation (Default for Small Screens) */
+.mobile-navigation {
+    position: absolute;
+    width: 100%;
+    display: flex; /* Visible by default */
+    flex-direction: column;
+    background-color: #000;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu {
+    
+    display: none; /* Hidden by default */
+    background-color: #fff;
+    border-top: 1px solid #c1c1c1;
+    padding: 16px 0;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    margin: 4px 0;
+    padding: 0;
+
+    width: 100%;
+}
+.menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px 0;
+    width: 100%;
+
+}
+
+.menu.active {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 30px;
+    height: 37px;
+    background: url("../images/Logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.brand, .brand-name{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: .1em;
+}
+
+.brand-name-mobile {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.download-btn_mobile{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding: 18px 0;
+    cursor: pointer;
+    border: none;
+}
+
+/* Desktop Navigation (Hidden by Default) */
+
+
+
+@media (min-width: 320px) { 
+    .nav-links li a {
+        color: #fff;
+        font-size: 1.3vw;
+    }
+}
+
+@media (min-width: 480px) { 
+
+
+    
+}
+
+
+
+
+/* Desktop-Specific Styles */
+@media (min-width: 768px) {
+    /* Show Desktop Navigation */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 42px;
+        background-color: #000;
+        border-bottom: 1px solid #c0c0c0;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .logo{
+        background-repeat: no-repeat;
+        background-position: cover;
+        width: 30px;
+        height: 37px;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .nav-links {
+        display: flex;
+        
+        gap: 36px;
+    }
+    .nav-links li a {
+        padding: 4px 2px;
+
+    }
+
+    .nav-links li a:hover {
+        color: #fff;
+        background-color: #000;
+    }
+    
+
+    .nav-right .download-btn {
+        display: block;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.4vw;
+        font-weight: 600;
+        color: #fff;
+        
+        background: linear-gradient(to bottom, #4D00FF, #000899);
+        border: none;
+        border-radius: 36px;
+        padding: 16px 33px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    /* Hide Mobile Navigation */
+    .mobile-navigation {
+        display: none; /* Hidden on larger screens */
+    }
+
+    .menu {
+        display: none; /* Ensure dropdown does not appear */
+    }
+}
+
+
+
+
+@media (min-width: 1024px) { 
+
+}
+
+@media (min-width: 1440px) { 
+
+}
+
+@media (min-width: 1920px) { 
+
+}   

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.aboutfold_style{
+    height: 800px;
+    background-color: #000;
+    color: #fff;
+    padding: 0 40px;
+
+}
+
+.aboutfold_style h1{
+    font-family: Bebas Neue, serif;
+    font-size: 16vw;
+    
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cinema_head{
+    float: left;
+}
+.cinedaily_head{
+    justify-self: right;
+}
+
+div.about_text{
+    border: 1px solid red;
+    margin: 0 40px;
+    width: 100%;
+    
+}
+
+div.about_text h1, h3 {
+    display: inline;
+}
+
+.about_cinema_banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
