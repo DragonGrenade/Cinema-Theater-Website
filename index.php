@@ -23,7 +23,40 @@
 
 </head>
 <body>
-  
+   <?php include("includes/nav_include.php") ?>
+
+     <!-- Navigation ends-->
+
+ <!-- Above The Fold start-->
+ <?php include("includes/abovefold_include.php") ?>
+
+
+
+
+
+
+
+
+ <?php include("includes/fold01_include.php") ?>
+
+ <?php include("includes/foldAbout_include.php") ?>
+
+
+
+
+ <?php include("includes/CTA_include.php") ?>
+
+
+
+ <?php include("includes/FAQ_include.php") ?>
+
+
+
+ <?php include("includes/contact_location_include.php") ?>
+
+
+
+ <?php include("includes/Footer_01_include.php") ?>
 
 
 </body>
